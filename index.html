@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.T.H Academy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- شريط التنقل -->
+  <nav>
+    <ul>
+      <li><a href="#home">الرئيسية</a></li>
+      <li><a href="#about-us">من نحن</a></li>
+      <li><a href="#courses">الدورات</a></li>
+      <li><a href="#branches">الفروع</a></li>
+      <li><a href="#registration">التسجيل</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <!-- الصفحة الرئيسية -->
+  <header id="home">
+    <div class="hero">
+      <h1>مرحبًا بكم في أكاديمية A.T.H</h1>
+      <p>نقدم لكم أفضل الدورات لتعلم اللغات والمعلوماتية</p>
+      <button onclick="scrollToSection('courses')">استكشف الدورات</button>
+    </div>
+  </header>
+
+  <!-- قسم من نحن -->
+  <section id="about-us">
+    <div class="about-container">
+      <div class="about-content">
+        <h2>من نحن</h2>
+        <p>أكاديمية A.T.H هي منصة تعليمية متخصصة في تعليم اللغات الفرنسية، الإنجليزية، والإسبانية. بالإضافة إلى تقديم دورات في المعلوماتية مثل Excel، Word، وPowerPoint. هدفنا هو تمكين الطلاب من اكتساب المهارات التي يحتاجونها لتحقيق النجاح في حياتهم المهنية والشخصية.</p>
+        <p>مع فروعنا في الكصر، كارفور، وتفرق زينة، نحن قريبون منك دائمًا لتقديم الدعم الأمثل.</p>
+      </div>
+      
+        <video controls>
+          <source src="./mg/A.T.H-Academy.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+      </div>
+    
+    <div class="success-stories">
+      <h3>قصص نجاح</h3>
+      <div class="stories">
+        <div class="story">
+          <img src="./mg/photo_a1.jpg" alt="طالب">
+          <p>محمد عبد الله: "بفضل الأكاديمية، حصلت على شهادة في اللغة الإنجليزية وساعدتني في الحصول على وظيفة أحلامي."</p>
+        </div>
+        <div class="story">
+          <img src="./mg/photo_a2.jpg" alt="طالبة">
+          <p>فاطمة بنت أحمد: "تعلمت برنامج Excel وأصبحت قادرة على إدارة أعمالي بشكل احترافي."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- قسم الدورات -->
+  <section id="courses">
+    <div class="container">
+        <h2 class="section-title">الدورات المتاحة</h2>
+        <p class="section-description">نقدم لكم دورات مميزة في تعلم اللغات والمعلوماتية مع مواعيد مرنة وأسعار مناسبة.</p>
+
+        <div class="courses-grid">
+            <!-- دورة اللغات -->
+            <div class="course-card">
+                <div class="course-icon">
+                    <img src="./mg/photo_b3.jpg" alt="تعلم اللغات">
+                </div>
+                <h3 class="course-title">تعلم اللغات</h3>
+                <p class="course-description">دورات مكثفة في الفرنسية، الإنجليزية، والإسبانية.</p>
+                <ul class="course-info">
+                    <li>المدة: شهران</li>
+                    <li>السعر: 25,000 أوقية قديمة</li>
+                    <li>الأوقات: 4:00 مساءً - 9:00 مساءً</li>
+                </ul>
+            </div>
+
+            <!-- دورة المعلوماتية -->
+            <div class="course-card">
+                <div class="course-icon">
+                    <img src="./mg/photo_b4.jpg" alt="دورات المعلوماتية">
+                </div>
+                <h3 class="course-title">دورات المعلوماتية</h3>
+                <p class="course-description">تعلم Excel، Word، وPowerPoint بطرق احترافية.</p>
+                <ul class="course-info">
+                    <li>المدة: 45 يومًا</li>
+                    <li>السعر: 30,000 أوقية قديمة</li>
+                    <li>الأوقات: 4:00 مساءً - 9:00 مساءً</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- قسم الفروع -->
+  <section id="branches">
+    <div class="container">
+        <h2 class="section-title">فروعنا</h2>
+        <p class="section-description">زوروا أقرب فرع لدينا لتجدوا خدماتنا المميزة.</p>
+
+        <div class="branches-grid">
+            <!-- فرع لكصر -->
+            <div class="branch-card">
+                <div class="branch-icon">
+                    <img src="./mg/photo boamato.jpg" alt="فرع لكصر">
+                </div>
+                <h3 class="branch-title">فرع لكصر</h3>
+                <p class="branch-description">يقع قرب مستشفى الطب بوعماتو.</p>
+            </div>
+
+            <!-- فرع كارفور -->
+            <div class="branch-card">
+                <div class="branch-icon">
+                    <img src="./mg/photo karafor.jpg" alt="فرع كارفور">
+                </div>
+                <h3 class="branch-title">فرع كارفور</h3>
+                <p class="branch-description">يقع قرب عيشة كساندرا.</p>
+            </div>
+
+            <!-- فرع تفرغ زينة -->
+            <div class="branch-card">
+                <div class="branch-icon">
+                    <img src="./mg/photo tafrag.jpg" alt="فرع تفرغ زينة">
+                </div>
+                <h3 class="branch-title">فرع تفرغ زينة</h3>
+                <p class="branch-description">شاهدوا الفيديو الخاص بموقعنا:</p>
+                <div class="branch-video">
+                    <video controls>
+                        <source src="./mg/tafravi.mp4" type="video/mp4">
+                        متصفحك لا يدعم تشغيل الفيديو.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="registration">
+    <div class="form-container">
+        <h2>التسجيل في ATH Academy</h2>
+        
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!-- الاسم -->
+            <label for="name">اسمك الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- رقم الهاتف -->
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <!-- العمر -->
+            <label for="age">العمر:</label>
+            <input type="number" id="age" name="age" required>
+
+            <!-- اختيار الدورة -->
+            <label for="course">هل ترغب في تعلم:</label>
+            <select id="course" name="course" required>
+                <option value="languages">اللغات</option>
+                <option value="informatics">المعلوماتية</option>
+            </select>
+
+            <!-- اختيار اللغة إذا كان المستخدم يريد تعلم اللغات -->
+            <div id="languages-options" class="hidden">
+                <label for="language">اختر اللغة التي ترغب في تعلمها:</label>
+                <select id="language" name="language">
+                    <option value="english">الإنجليزية</option>
+                    <option value="french">الفرنسية</option>
+                    <option value="spanish">الإسبانية</option>
+                </select>
+            </div>
+
+            <!-- اختيار الفرع -->
+            <label for="branch">اختار الفرع:</label>
+            <select id="branch" name="branch" required>
+                <option value="lksar">لكصر</option>
+                <option value="carrefour">كارفور</option>
+                <option value="tevragh">تفرغ زينه</option>
+            </select>
+
+            <!-- تحميل صورة كارداديت -->
+            <label for="id_card">إضافة صورة كارداديت:</label>
+            <input type="file" id="id_card" name="id_card" accept="image/*" required>
+
+            <!-- تحميل صورة شخصية -->
+            <label for="profile_pic">إضافة صورة شخصية:</label>
+            <input type="file" id="profile_pic" name="profile_pic" accept="image/*" required>
+
+            <!-- اختيار طريقة الدفع -->
+            <label for="payment-method">طريقة الدفع:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="benghli">بنكيلي</option>
+                <option value="masrafi">مصرفي</option>
+                <option value="bim-bank">بيم بانك</option>
+                <option value="saddad">السداد</option>
+                <option value="amani">أمانتي</option>
+                <option value="click">كليك</option>
+            </select>
+
+            <!-- تحميل صورة من الدفع -->
+            <label for="payment-proof">أضف صورة من الدفع لتأكيد:</label>
+            <input type="file" id="payment-proof" name="payment-proof" accept="image/*" required>
+
+            <button type="submit" class="submit-btn">تسجيل</button>
+        </form>
+    </div>
+</section>
+
+
+  <!-- قسم التواصل -->
+  <section id="contact">
+    <div class="contact-container">
+        <h2>تواصل معنا</h2>
+        <p>إذا كنت ترغب في معرفة المزيد عن أكاديميتنا أو لديك أي استفسار، نحن هنا للمساعدة! تواصل معنا الآن.</p>
+        
+        <div class="academy-info">
+            <h3>عن الأكاديمية:</h3>
+            <p><strong>A.T.H Academy</strong> هي أكاديمية تهدف إلى تقديم أعلى مستويات التعليم في اللغات والمعلوماتية. لدينا فريق من الأساتذة المتميزين الذين يسعون لتطوير مهارات الطلاب في مجالات متنوعة، مثل اللغات (الفرنسية، الإنجليزية، الإسبانية) والبرامج المكتبية (Excel، Word، PowerPoint). نحن ملتزمون بتوفير بيئة تعليمية محفزة تؤهل الطلاب لتحقيق النجاح والتميز!</p>
+        </div>
+
+        <div class="teachers-logo">
+            <h3>أساتذتنا المميزون:</h3>
+            <div class="teacher-logos">
+                <img src="./mg/photo prof1.jpg" alt="أستاذ 1" class="teacher-img">
+                <img src="./mg/photo prof2.jpg" alt="أستاذ 2" class="teacher-img">
+                <img src="./mg/photo prof3.jpg" alt="أستاذ 3" class="teacher-img">
+            </div>
+        </div>
+
+        <div class="social-media">
+            <h3>تابعنا على:</h3>
+            <a href="https://www.facebook.com/ATHacademy?mibextid=ZbWKwL" target="_blank" class="social-icon facebook">
+                <span>فيسبوك</span>
+            </a>
+            <a href="https://www.tiktok.com/@ath_academy?_t=8s31VAFrVDR&_r=1" target="_blank" class="social-icon tiktok">
+               
+                <span>تيك توك</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
